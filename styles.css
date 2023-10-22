@@ -1,0 +1,37 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-panel, .right-panel {
+    width: 48%; /* 分割して少し間隔を開けるためのサイズ調整 */
+}
+
+#sentence {
+    font-size: 20px; /* 2倍に変更 */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px; /* 2倍に変更 */
+    height: 200px;
+    box-sizing: border-box; /* paddingを含めてwidthを100%にする */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px; /* 2倍に変更 */
+    width: 100%;
+}
+
+#timer {
+    margin-top: 20px;
+    font-size: 20px; /* 2倍に変更 */
+    text-align: right; /* タイマーを右側に配置 */
+}
+
+

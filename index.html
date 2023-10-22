@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイピングゲーム</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <p id="sentence"></p>
+            <p id="sentenceLength">文章の文字数: 0</p>  <!-- 追加した部分 -->
+            <button id="changeSentence">文章を変更</button>
+        </div>
+        <div class="right-panel">
+            <textarea id="userInput" placeholder="こちらにタイピングしてください。入力開始と同時にタイマーが始動します。"></textarea>
+            <p id="timer">0.0秒</p>
+            <p id="charPerMinute">0文字/分</p>  <!-- ここで結果を表示します -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
